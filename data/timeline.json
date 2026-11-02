@@ -1,0 +1,107 @@
+{
+  "entries": [
+    {
+      "year": "2025",
+      "label": "1st October 2025",
+      "type": "milestone",
+      "title": "Capgemini - Promoted to Manager (C2)",
+      "org": "Capgemini",
+      "description": "Leading enterprise AI transformation — architecting production RAG, Agentic AI, and microservices platforms at scale",
+      "tags": ["Langchain", "Langraph", "Claude", "GPT-4o", "Azure", "AWS Bedrock", "FastAPI", "React"],
+      "duration": "4+ years"
+    },
+    {
+      "year": "2025",
+      "label": "Jun 2025",
+      "type": "award",
+      "title": "Regional Impact Award — Best Efficiency Delivered",
+      "org": "Capgemini",
+      "description": "Recognised for €1.4M cost avoidance and AI-driven transformation impact",
+      "tags": []
+    },
+    {
+      "year": "2024",
+      "label": "20th Jan 2024",
+      "type": "milestone",
+      "title": "Capgemini - Promoted to Senior Consultant (C1)",
+      "org": "Capgemini",
+      "description": "Elevated to Senior Consultant, Team lead handling multiple accounts",
+      "tags": []
+    },
+    {
+      "year": "2022",
+      "label": "Sep 2022",
+      "type": "award",
+      "title": "XTRAMILE Award",
+      "org": "Capgemini · Insight & Data",
+      "description": "Outstanding performance and lasting contribution",
+      "tags": []
+    },
+    {
+      "year": "2022",
+      "label": "30th May 2022",
+      "type": "role",
+      "title": "Capgemini - Consultant (B2)",
+      "org": "Capgemini · Insight & Data",
+      "description": "Joined Capgemini",
+      "tags": []
+    },
+    {
+      "year": "2019",
+      "label": "Jun 2019",
+      "type": "role",
+      "title": "Software Development Engineer — Machine Learning",
+      "org": "Flexera Software · Bangalore",
+      "description": "Built production NLP systems for open-source license compliance, HR chatbots, and ML-powered automation tools",
+      "tags": ["Python", "Spacy NER", "Scikit-learn", "MongoDB", "REST APIs", "Dialogflow"],
+      "duration": "3 years"
+    },
+    {
+      "year": "2019",
+      "label": "May 2019",
+      "type": "education",
+      "title": "Master of Computer Application (MCA)",
+      "org": "Visvesvaraya Technological University (VTU) · CGPA 7.91",
+      "description": "Computer Science — specialised in software engineering and algorithms",
+      "tags": []
+    },
+    {
+      "year": "2019",
+      "label": "Jan 2019",
+      "type": "role",
+      "title": "Web Developer Intern",
+      "org": "Credessol Creative Solutions LLP · Bangalore",
+      "description": "Developed and maintained web applications; implemented operational change management workflows; optimised KPIs for web platform efficiency",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "duration": "6 months"
+    },
+    {
+      "year": "2018",
+      "label": "Jun 2018",
+      "type": "role",
+      "title": "WordPress Developer Intern",
+      "org": "HIDForum NGO · Bangalore",
+      "description": "Built and customised WordPress websites for NGO initiatives; implemented responsive designs; managed content and maintenance",
+      "tags": ["WordPress", "HTML", "CSS"],
+      "duration": "3 months"
+    },
+    {
+      "year": "2015",
+      "label": "May 2015",
+      "type": "education",
+      "title": "Bachelor of Computer Application (BCA)",
+      "org": "Bangalore University · 67%",
+      "description": "Computer Science — foundations in programming, data structures, and databases",
+      "tags": []
+    },
+    {
+      "year": "2012",
+      "label": "2012",
+      "type": "start",
+      "title": "Started the CS Journey",
+      "org": "Bangalore, India",
+      "description": "First lines of code",
+      "tags": []
+    }
+  ]
+}

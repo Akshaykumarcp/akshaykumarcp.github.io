@@ -1,0 +1,233 @@
+{
+  "certifications": [
+    {
+      "id": "cg-architects-l1",
+      "provider": "Capgemini",
+      "name": "Certified Architect - L1",
+      "shortName": "Architects Global Community",
+      "icon": "capgemini",
+      "url": "https://github.com/Akshaykumarcp/Cloud/blob/main/CG/L1%20certified%20architect/certificate.pdf",
+      "date": "2026-07-23",
+      "featured": true
+    },
+    {
+      "id": "databricks-genai",
+      "provider": "Databricks",
+      "name": "Certified Generative AI Engineer Associate",
+      "shortName": "GenAI Eng. Assoc.",
+      "icon": "databricks",
+      "url": "https://credentials.databricks.com/bddd8259-97bb-473e-9e6f-fc051f34c0c0#acc.H05bzpTk",
+      "date": "2025-01-16",
+      "featured": true
+    },
+    {
+      "id": "azure-ai-102",
+      "provider": "Microsoft Azure",
+      "name": "Azure AI Engineer Associate",
+      "shortName": "AI-102",
+      "icon": "azure",
+      "url": "https://github.com/Akshaykumarcp/akshaykumarcp.github.io/blob/master/doc/Certifications%20-%20akshaykumarcp-1501%20_%20Microsoft%20Docs%20AI%20Engineer%20Associate.pdf",
+      "date": "2022-08-28",
+      "featured": true
+    },
+    {
+      "id": "aws-ml-specialty",
+      "provider": "Amazon Web Services",
+      "name": "AWS Machine Learning Specialty",
+      "shortName": "MLS-C01",
+      "icon": "aws",
+      "url": "https://github.com/Akshaykumarcp/Cloud/blob/main/AWS/MLS-C01%20Machine%20Learning%20Specialty/AWS%20Certified%20Machine%20Learning%20-%20Specialty%20certificate.pdf",
+      "date": "2023-10-13",
+      "featured": true
+    },
+    {
+      "id": "oracle-genai",
+      "provider": "Oracle Cloud",
+      "name": "OCI Generative AI Professional",
+      "shortName": "OCI Gen AI Pro",
+      "icon": "oracle",
+      "url": "https://github.com/Akshaykumarcp/Cloud/blob/main/oracle/OCI%20Generative%20AI%20Professional%202024/eCertificate.pdf",
+      "date": "2024-01-01",
+      "featured": true
+    },
+    {
+      "id": "azure-ai-900",
+      "provider": "Microsoft Azure",
+      "name": "Azure AI Fundamentals",
+      "shortName": "AI-900",
+      "icon": "azure",
+      "url": "https://github.com/Akshaykumarcp/akshaykumarcp.github.io/blob/master/doc/Certifications%20-%20akshaykumarcp-1501%20_%20Microsoft%20Docs%20AI%20fundamentals%20ai%20900.pdf",
+      "date": "2022-08-15",
+      "featured": false
+    },
+    {
+      "id": "aws-ccp",
+      "provider": "Amazon Web Services",
+      "name": "AWS Certified Cloud Practitioner",
+      "shortName": "AWS CCP",
+      "icon": "aws",
+      "url": "https://github.com/Akshaykumarcp/akshaykumarcp.github.io/blob/master/doc/AWS%20Certified%20Cloud%20Practitioner%20certificate.pdf",
+      "date": "2022-07-26",
+      "featured": false
+    },
+    {
+      "id": "dataiku-cd",
+      "provider": "Dataiku",
+      "name": "Core Designer Certificate",
+      "shortName": "Core Designer",
+      "icon": "dataiku",
+      "url": "https://github.com/Akshaykumarcp/akshaykumarcp.github.io/blob/master/doc/certificate-q7qz85ytn6ib-1657973356%20CD.pdf",
+      "date": "2022-07-16",
+      "featured": false
+    },
+    {
+      "id": "dataiku-mlp",
+      "provider": "Dataiku",
+      "name": "ML Practitioner Certificate",
+      "shortName": "ML Practitioner",
+      "icon": "dataiku",
+      "url": "https://github.com/Akshaykumarcp/akshaykumarcp.github.io/blob/master/doc/certificate-jgebrsy3i94c-1658144101%20MLP.pdf",
+      "date": "2022-07-18",
+      "featured": false
+    },
+    {
+      "id": "igmguru-genai",
+      "provider": "igmGuru",
+      "name": "Generative AI Certification",
+      "shortName": "Gen AI",
+      "icon": "igmguru",
+      "url": "https://github.com/Akshaykumarcp/Cloud/blob/main/igmGuru/IGM-2024-1557%20(Akshay%20P).jpg",
+      "date": "2024-01-01",
+      "featured": false
+    }
+  ],
+  "skillGroups": [
+    {
+      "group": "AI & LLM Engineering",
+      "skills": [
+        { "domain": "GenAI / LLM", "techs": "Claude · GPT-4o · Azure OpenAI · AWS Bedrock · Prompt Engineering · Open-source LLMs (Mistral, Llama 2, Ollama)", "level": "Expert",
+          "projects": ["regulatory-change-assistant", "adpp", "api-forge", "business4ai", "multimodal-rag", "agentic-chatbot", "legal-tender", "code-assistant", "raise-platform", "synthetic-data", "nl2sql", "personalized-marketing", "google-genai-hackathon"] },
+        { "domain": "RAG Systems", "techs": "Langchain · Azure AI Search · Databricks Vector Search · ChromaDB · FAISS · Multimodal RAG · Document Enrichment", "level": "Expert",
+          "projects": ["regulatory-change-assistant", "multimodal-rag", "legal-tender", "code-assistant", "rag-playground"] },
+        { "domain": "Agentic AI", "techs": "LangGraph · ReAct (from scratch) · Function Calling · MCP · Microsoft Autogen · Human-in-the-loop", "level": "Expert",
+          "projects": ["adpp", "business4ai", "agentic-chatbot", "raise-platform", "regulatory-change-assistant"] },
+        { "domain": "Responsible AI & Evaluation", "techs": "Prompt-injection Defence · Human-in-the-loop Monitoring · Data-quality Metrics", "level": "Advanced",
+          "projects": ["raise-platform"] },
+        { "domain": "Text-to-SQL & Code Generation", "techs": "NL2SQL · PySpark Code Generation · Prompt Engineering · Gradio / Streamlit Demos", "level": "Advanced",
+          "projects": ["nl2sql", "code-assistant"] },
+        { "domain": "Document Intelligence", "techs": "Azure Document Intelligence · Azure Cognitive Services · Custom Parsers (15+ formats) · OCR", "level": "Advanced",
+          "projects": ["regulatory-change-assistant", "multimodal-rag", "rag-playground"] }
+      ]
+    },
+    {
+      "group": "Models & Multimodal",
+      "skills": [
+        { "domain": "ML / NLP", "techs": "Spacy · Transformers · sklearn · PyTorch", "level": "Advanced",
+          "projects": ["license-detection", "hr-chatbot", "customer-satisfaction", "insect-acoustic", "synthetic-data"] },
+        { "domain": "Computer Vision", "techs": "CNNs · Image Classification · Object Detection · Stable Diffusion", "level": "Advanced",
+          "projects": ["multimodal-rag", "synthetic-data", "personalized-marketing"] },
+        { "domain": "Fine-tuning & Open-source LLMs", "techs": "Unsloth · Dreambooth · 4-bit Quantization · HuggingFace · Ollama", "level": "Advanced",
+          "projects": ["code-assistant", "personalized-marketing"] },
+        { "domain": "Synthetic Data & Image Generation", "techs": "CT-GAN · SDV · Stable Diffusion · Dreambooth", "level": "Advanced",
+          "projects": ["synthetic-data", "personalized-marketing"] }
+      ]
+    },
+    {
+      "group": "AI-Assisted Development",
+      "skills": [
+        { "domain": "Claude Code", "techs": "Skills · MCP · Plugins · Commands", "level": "Advanced",
+          "projects": ["regulatory-change-assistant", "adpp", "api-forge", "business4ai"] },
+        { "domain": "GitHub Copilot", "techs": "GitHub Copilot · VS Code", "level": "Advanced",
+          "projects": ["api-forge"] }
+      ]
+    },
+    {
+      "group": "Data Platforms",
+      "skills": [
+        { "domain": "Databricks & Lakehouse", "techs": "Delta Lake · Unity Catalog · SQL Warehouse · Workflows · dbt · PySpark", "level": "Advanced",
+          "projects": ["adpp", "multimodal-rag", "code-assistant", "rag-playground"] },
+        { "domain": "Databases", "techs": "MySQL · PostgreSQL · MongoDB · CosmosDB · Azure SQL · Redis", "level": "Advanced",
+          "projects": ["regulatory-change-assistant", "business4ai", "agentic-chatbot", "license-detection", "hr-chatbot", "automation-tools"] },
+        { "domain": "Graph Databases", "techs": "Neo4j · Azure SQL Graph (NODE/EDGE)", "level": "Working",
+          "projects": ["regulatory-change-assistant"] }
+      ]
+    },
+    {
+      "group": "Cloud",
+      "skills": [
+        { "domain": "Cloud — Azure", "techs": "Container Apps · SWA · Redis · Key Vault · AI Search · Document Intelligence · Data Factory · Functions · Event Grid", "level": "Expert",
+          "projects": ["regulatory-change-assistant", "api-forge", "business4ai", "multimodal-rag", "agentic-chatbot", "legal-tender", "raise-platform"] },
+        { "domain": "Cloud — AWS", "techs": "Bedrock · SageMaker · S3 · Lambda · EC2 · Glue · Clean Rooms", "level": "Advanced",
+          "projects": ["adpp", "business4ai", "insect-acoustic", "aws-clean-room"] }
+      ]
+    },
+    {
+      "group": "Engineering",
+      "skills": [
+        { "domain": "Python", "techs": "FastAPI · Django · Flask · asyncio · OOP", "level": "Expert",
+          "projects": ["adpp", "api-forge", "business4ai", "agentic-chatbot", "legal-tender", "license-detection", "automation-tools", "nl2sql", "customer-satisfaction", "google-genai-hackathon"] },
+        { "domain": "Languages", "techs": "Python · JavaScript · TypeScript · SQL · PySpark", "level": "Advanced" },
+        { "domain": "Frontend", "techs": "React.js · Next.js · Module Federation · Shadcn/UI · HTML5 · CSS3", "level": "Advanced",
+          "projects": ["adpp", "api-forge", "business4ai"] },
+        { "domain": "System Architecture", "techs": "Microservices · Module Federation · Event-Driven · REST APIs", "level": "Expert",
+          "projects": ["regulatory-change-assistant", "adpp", "business4ai", "agentic-chatbot"] },
+        { "domain": "DevOps / MLOps", "techs": "Docker · Kubernetes · GitHub Actions · Azure DevOps · GitLab", "level": "Advanced",
+          "projects": ["adpp", "business4ai", "multimodal-rag"] },
+        { "domain": "Monitoring", "techs": "Application Insights · Azure Monitor · MLflow", "level": "Advanced" }
+      ]
+    },
+    {
+      "group": "Leadership & Delivery",
+      "skills": [
+        { "domain": "Solution & System Design", "techs": "Requirement Elicitation · RFP Analysis · Solution Design · Architecture Review · Trade-off Analysis · Stakeholder Alignment", "level": "Expert",
+          "projects": ["regulatory-change-assistant", "adpp", "legal-tender", "code-assistant"] },
+        { "domain": "Engineering Management", "techs": "Sprint Planning · PR Review · Team Briefing · Stakeholder Mgmt · Scrum · Mentoring", "level": "Expert",
+          "projects": ["adpp", "regulatory-change-assistant", "multimodal-rag", "agentic-chatbot"] },
+        { "domain": "Tools & Platforms", "techs": "VS Code · PyCharm · Jupyter · Jira · Postman · Confluence", "level": "Advanced" }
+      ]
+    }
+  ],
+  "domains": ["Legal", "Marketing", "Finance", "Open-Source Software", "Energy & Utilities"],
+  "awards": [
+    {
+      "title": "Promotion: Senior Consultant → Manager",
+      "org": "Capgemini",
+      "year": "2025",
+      "date": "2025-10-01",
+      "type": "promotion",
+      "url": null
+    },
+    {
+      "title": "Best Efficiency Delivered — Regional Impact Award",
+      "org": "Capgemini",
+      "year": "2025",
+      "date": "2025-06-01",
+      "type": "award",
+      "url": "https://github.com/Akshaykumarcp/akshaykumarcp.github.io/blob/master/doc/Akshay%20Kumar%20CP%20h1%2025%20regional%20impact%20award.pdf"
+    },
+    {
+      "title": "Promotion: Consultant → Senior Consultant",
+      "org": "Capgemini",
+      "year": "2024",
+      "date": "2024-01-20",
+      "type": "promotion",
+      "url": null
+    },
+    {
+      "title": "XTRAMILE — Outstanding Performance & Lasting Contribution",
+      "org": "Capgemini · Insight & Data",
+      "year": "2022",
+      "date": "2022-09-01",
+      "type": "award",
+      "url": "https://github.com/Akshaykumarcp/akshaykumarcp.github.io/blob/master/doc/CG_XtraMile.pdf"
+    },
+    {
+      "title": "Recognition for Passion in Artificial Intelligence",
+      "org": "Flexera Software",
+      "year": "2021",
+      "date": "2021-01-01",
+      "type": "award",
+      "url": null
+    }
+  ]
+}
