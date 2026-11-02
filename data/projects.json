@@ -1,0 +1,324 @@
+{
+  "featured": [
+    {
+      "id": "regulatory-change-assistant",
+      "title": "Regulatory Change Management Assistant",
+      "subtitle": "AI-First Compliance Horizon Scanning",
+      "category": ["RAG", "Agentic", "GenAI"],
+      "role": "AI Engineer Lead",
+      "contributions": [
+        "Understood, clarified and brainstormed the requirements with the business",
+        "Bridged the business need to a solution design aligned to the requirement",
+        "Explained the solution and refined it with the solution architect and other stakeholders",
+        "Briefed the solution to the build team and supported them through delivery"
+      ],
+      "company": "Capgemini",
+      "claudeCode": true,
+      "architecture": [
+        "Single trusted AI assistant continuously scanning the regulatory horizon — ingests and interprets obligations and maps them to National Grid's processes, policies, and controls",
+        "Turns compliance from a reactive, manual burden into a proactive, evidence-based, always-audit-ready capability",
+        "Azure AI Search hosts the vector index and keyword search; Azure OpenAI generates embeddings and grounded responses",
+        "Graph modelling of obligations-to-controls evaluated across Neo4j (dedicated graph tooling) vs Azure SQL + Graph Extensions (reuse of existing relational investment)",
+        "Azure AI Document Intelligence handles document parsing/OCR feeding classification and extraction",
+        "Event-driven ingestion: Azure Data Factory (scheduled crawling), Logic Apps (API/SharePoint/email sync), Functions (triggered OCR extraction), Event Grid (decoupled producer/consumer flow)"
+      ],
+      "stack": ["Azure AI Search", "Azure OpenAI", "Neo4j", "Azure SQL + Graph Extensions", "Azure AI Document Intelligence", "Azure Data Factory", "Azure Logic Apps", "Azure Functions", "Event Grid", "Claude Code CLI"],
+      "impact": [
+        "Shifts regulatory compliance from reactive, manual tracking to proactive, evidence-based, always-audit-ready monitoring",
+        "Continuous horizon-scanning reduces time-to-detect new regulatory obligations"
+      ],
+      "period": "Sep 2026 – Present"
+    },
+    {
+      "id": "adpp",
+      "title": "Autonomous Data Product Platform (ADPP)",
+      "subtitle": "AI-First Data Product Lifecycle Platform",
+      "category": ["Agentic", "GenAI", "Cloud"],
+      "role": "AI Engineer Lead",
+      "contributions": [
+        "Understood, clarified and brainstormed the requirements with the business",
+        "Bridged the business need to a solution design aligned to the requirement",
+        "Reviewed the solution with stakeholders",
+        "Briefed the solution to the build team",
+        "Planned sprints, supported the team and reviewed PRs"
+      ],
+      "company": "Capgemini",
+      "claudeCode": true,
+      "architecture": [
+        "AI-first platform governing the full 8-step lifecycle of data products — AI agents generate all artifacts at each step, humans review and approve only",
+        "Generic, multi-tenant design — ODP is the first instance; any organisation can register business problems and build governed data products through the same lifecycle",
+        "AWS Bedrock-only AI stack (Claude Sonnet 5 + Claude Haiku) for agent conversation and artifact generation",
+        "Databricks Unity Catalog governs lineage and column-level security; Delta Lake enforces ACID, time travel, and append-only ingestion",
+        "External team owns SharePoint → Delta Lake ingestion; ADPP takes over from Delta tables onward",
+        "dbt + dbt-databricks generates SQL transform models; sqlfluff and bandit gate all AI-generated code before commit to GitLab",
+        "Partial production support in progress since August 2026 — phased rollout ongoing"
+      ],
+      "stack": ["Python 3.11", "FastAPI", "AWS Bedrock", "Claude Sonnet 5", "Claude Haiku", "Databricks SDK", "Delta Lake", "Unity Catalog", "Databricks SQL Warehouse", "Databricks Workflows", "dbt", "sqlfluff", "bandit", "React", "Shadcn/UI", "GitLab", "Claude Code CLI"],
+      "impact": [
+        "Converts data-product delivery from a manual, bespoke process into a governed, 8-step AI-generated lifecycle with human approval gates",
+        "Generic platform design — reusable beyond the first ODP instance for any organisation's data products"
+      ],
+      "period": "Aug 2026 – Present"
+    },
+    {
+      "id": "api-forge",
+      "title": "API Forge",
+      "subtitle": "BRD to API Generator",
+      "category": ["GenAI", "Cloud"],
+      "role": "AI Engineer Lead",
+      "company": "Capgemini",
+      "claudeCode": true,
+      "architecture": [
+        "Ingests Business Requirements Documents (BRDs) and generates production-ready APIs",
+        "Claude Sonnet 4.6 (1M context window) for deep document understanding",
+        "Azure-native deployment",
+        "Built using GitHub Copilot paired with Claude Code CLI as the AI coding workflow"
+      ],
+      "stack": ["Python", "Next.js", "Azure", "FastAPI", "Claude Sonnet 4.6", "GitHub Copilot", "Claude Code CLI"],
+      "impact": [
+        "Automated API generation directly from BRD documents"
+      ],
+      "period": "Jun 2026 – Jul 2026"
+    },
+    {
+      "id": "business4ai",
+      "title": "Business4AI",
+      "subtitle": "Enterprise SOP AI Platform",
+      "category": ["GenAI", "Cloud"],
+      "role": "AI Engineer Lead",
+      "company": "Capgemini",
+      "claudeCode": true,
+      "architecture": [
+        "Scalable microservices platform with 10 backend services",
+        "4 module-federation micro-frontends",
+        "Multi-LLM strategy: Claude Sonnet 4.5 + AWS Bedrock",
+        "Azure-native: Container Apps, Static Web Apps, Redis, Blob Storage"
+      ],
+      "stack": ["Python", "FastAPI", "React.js", "MCP Server", "Claude Sonnet 4.5", "AWS Bedrock", "Azure", "Docker", "GitHub Actions", "Claude Code CLI"],
+      "impact": [
+        "Enabled org-wide AI adoption across multiple business units",
+        "CI/CD pipelines reduced deployment time by 80%",
+        "Production-ready, serving enterprise-scale workloads"
+      ],
+      "period": "December 2025 – May 2026"
+    },
+    {
+      "id": "multimodal-rag",
+      "title": "Multimodal-RAG Playground",
+      "subtitle": "AI Document Intelligence Platform",
+      "category": ["RAG", "GenAI"],
+      "role": "Senior GenAI Developer — Cross-functional team of 8+ engineers",
+      "company": "Capgemini",
+      "architecture": [
+        "Multimodal pipeline: Images, Video, Audio, PDFs with embedded images",
+        "RAG with vector embeddings + semantic search",
+        "Context-aware retrieval via Databricks Vector Search",
+        "Azure DevOps CI/CD for automated sprint releases"
+      ],
+      "stack": ["Langchain", "Azure OpenAI", "Databricks", "Azure Cognitive Services", "Vector DBs", "Azure DevOps"],
+      "impact": [
+        "80%+ accuracy in multimodal content extraction",
+        "Led cross-functional team of 8+ (UI, Backend, Data Eng, AI)",
+        "Intelligent document analysis at enterprise scale"
+      ],
+      "period": "2023 – 2024"
+    },
+    {
+      "id": "agentic-chatbot",
+      "title": "Connecting Dot Agentic AI Chatbot",
+      "subtitle": "Intelligent Reasoning System",
+      "category": ["Agentic", "GenAI"],
+      "role": "Senior GenAI Developer — ReAct pattern from scratch, team of 5",
+      "company": "Capgemini",
+      "architecture": [
+        "ReAct pattern implementation from scratch — autonomous reasoning + tool use",
+        "Dual-mode interface: text + visualization",
+        "Function calling for external system integrations",
+        "Azure App Service + Key Vault + MySQL for secure state management"
+      ],
+      "stack": ["Langraph", "FastAPI", "GPT-4o", "Azure App Service", "Key Vault", "Blob Storage", "MySQL"],
+      "impact": [
+        "70% reduction in manual query resolution time",
+        "Autonomous agent workflows serving enterprise users",
+        "Production deployment with 99.9% uptime"
+      ],
+      "period": "2023 – 2024"
+    },
+    {
+      "id": "legal-tender",
+      "title": "Legal Tender AI Review",
+      "subtitle": "Compliance Automation — €1.4M Impact",
+      "category": ["RAG", "GenAI"],
+      "role": "GenAI Developer — End-to-end ownership: requirements → architecture → production",
+      "company": "Capgemini",
+      "architecture": [
+        "RAG architecture with compliance rule engines + risk assessment",
+        "Azure Cognitive Search as vector store",
+        "GPT-3.5-Turbo + text-embedding-ada-002 for semantic understanding",
+        "Prompt engineering for high-confidence criticality classification"
+      ],
+      "stack": ["GPT-3.5-Turbo", "Azure OpenAI Embeddings", "Azure Cognitive Search", "Langchain", "Python"],
+      "impact": [
+        "€1.4M annual cost avoidance",
+        "60% accuracy in high-confidence criticality assessment",
+        "90% review time reduction: 100+ hours → 10 hours per tender"
+      ],
+      "period": "2022 – 2023",
+      "highlight": true
+    },
+    {
+      "id": "code-assistant",
+      "title": "Code Assistant",
+      "subtitle": "AI Dev Tool — Air-Gapped On-Premise",
+      "category": ["GenAI"],
+      "role": "Architect — on-premise constraint, open-source LLMs",
+      "company": "Capgemini",
+      "architecture": [
+        "Fully on-premise, air-gapped environment — no external API calls",
+        "Open-source LLMs (Mistral, Llama 2) with 4-bit quantization on Databricks GPU",
+        "RAG pipeline: code examples in ChromaDB vector store",
+        "Converts business requirements → production-ready PySpark code"
+      ],
+      "stack": ["Databricks GPU", "HuggingFace", "4-bit Quantization", "ChromaDB", "Langchain", "Ollama", "Mistral", "Llama 2"],
+      "impact": [
+        "50% reduction in data pipeline development time",
+        "Non-technical users can generate complex PySpark transformations",
+        "Zero external dependencies — fully compliant with data sovereignty requirements"
+      ],
+      "period": "2023"
+    },
+    {
+      "id": "license-detection",
+      "title": "Open-Source License Detection",
+      "subtitle": "NLP-Powered Compliance System",
+      "category": ["ML/NLP"],
+      "role": "Full-stack ML — data, model, API, production deployment",
+      "company": "Flexera",
+      "architecture": [
+        "Spacy NER for automated license text and copyright holder extraction",
+        "End-to-end ML: preprocessing → training → REST API → production",
+        "UWSGI server + MongoDB for persistence",
+        "Serving 10K+ daily predictions at 99.5% uptime"
+      ],
+      "stack": ["Python", "Spacy NER", "Scikit-learn", "REST APIs", "UWSGI", "MongoDB"],
+      "impact": [
+        "License mappings improved: 35% → 55% (+20% accuracy gain)",
+        "10K+ daily predictions with 99.5% uptime SLA",
+        "Reduced manual compliance review hours by 60%"
+      ],
+      "period": "2019 – 2022"
+    }
+  ],
+  "more": [
+    {
+      "id": "raise-platform",
+      "title": "RAISE Platform",
+      "subtitle": "AI Governance & Security",
+      "category": ["GenAI"],
+      "company": "Capgemini",
+      "stack": ["Microsoft Autogen", "LLM APIs", "Azure Security"],
+      "impact": ["AI governance framework adopted across 10+ enterprise projects"],
+      "period": "2023"
+    },
+    {
+      "id": "synthetic-data",
+      "title": "Synthetic Data Generation",
+      "subtitle": "Tabular · Image · Text",
+      "category": ["ML/NLP", "GenAI"],
+      "company": "Capgemini",
+      "stack": ["CTGAN", "SDV", "Stable Diffusion", "GPT-2", "Bloom", "HuggingFace"],
+      "impact": ["Tabular, image, and text data generation at scale"],
+      "period": "2023"
+    },
+    {
+      "id": "nl2sql",
+      "title": "Natural Language to SQL",
+      "subtitle": "Prompt Engineering Demo",
+      "category": ["GenAI"],
+      "company": "Capgemini",
+      "stack": ["OpenAI text-davinci-003", "Gradio", "Python"],
+      "impact": ["Non-technical users query databases in plain English"],
+      "period": "2022"
+    },
+    {
+      "id": "hr-chatbot",
+      "title": "Q&A Chatbot for HR",
+      "subtitle": "Conversational AI for 500+ Employees",
+      "category": ["ML/NLP"],
+      "company": "Flexera",
+      "stack": ["Dialogflow", "Amazon Lex", "Azure LUIS", "Rasa X", "MongoDB"],
+      "impact": ["70% HR ticket reduction, 50% faster query resolution"],
+      "period": "2020 – 2021"
+    },
+    {
+      "id": "insect-acoustic",
+      "title": "Insect Acoustic AI",
+      "subtitle": "Hackathon — Multi-class Audio Classification",
+      "category": ["ML/NLP"],
+      "company": "Capgemini",
+      "stack": ["AWS SageMaker", "HuggingFace", "ANN", "PyTorch"],
+      "impact": ["Audio classification with custom feature extraction"],
+      "period": "2023"
+    },
+    {
+      "id": "rag-playground",
+      "title": "RAG Playground",
+      "subtitle": "Document Intelligence Engine",
+      "category": ["RAG", "GenAI"],
+      "company": "Capgemini",
+      "stack": ["Langchain", "Azure OpenAI Embeddings", "Databricks Vector Search", "Azure Cognitive Services"],
+      "impact": ["35% improvement in downstream chatbot accuracy via enriched vector context", "Custom parsers for 15+ file formats", "NLP-based metadata extraction, entity recognition, and summarisation"],
+      "period": "2023"
+    },
+    {
+      "id": "personalized-marketing",
+      "title": "Personalized Marketing",
+      "subtitle": "Generative AI Image Personalisation",
+      "category": ["GenAI"],
+      "company": "Capgemini",
+      "stack": ["Stable Diffusion", "Dreambooth", "HuggingFace"],
+      "impact": ["Personalised image generation for marketing campaigns via fine-tuned diffusion models"],
+      "period": "2023"
+    },
+    {
+      "id": "aws-clean-room",
+      "title": "AWS Clean Room",
+      "subtitle": "Privacy-Safe Marketing Analytics",
+      "category": ["Cloud"],
+      "company": "Capgemini",
+      "stack": ["AWS Clean Rooms", "S3", "AWS Glue", "Amperity CDP"],
+      "impact": ["Marketing decisions without third-party cookies", "Identity resolution (IDR) and customer campaigns via Amperity CDP"],
+      "period": "2023"
+    },
+    {
+      "id": "customer-satisfaction",
+      "title": "Customer Satisfaction Analytics",
+      "subtitle": "ML-Powered Business Intelligence",
+      "category": ["ML/NLP"],
+      "company": "Capgemini",
+      "stack": ["Python", "Scikit-learn", "NLP"],
+      "impact": ["Loyal customer prediction via cluster models", "CSAT, NPS, SERVQUAL, RFM, and Cohort analysis", "Sentiment classification and topic modelling for satisfaction metrics"],
+      "period": "2022 – 2023"
+    },
+    {
+      "id": "google-genai-hackathon",
+      "title": "Google GenAI Hackathon",
+      "subtitle": "Personalised E-Commerce Copy Generation",
+      "category": ["GenAI"],
+      "company": "Capgemini",
+      "stack": ["Google Vertex AI", "text-bison", "Python"],
+      "impact": ["Personalised product descriptions and promotional content (SMS/Email/Social) from customer transaction history", "Customer churn retention strategies"],
+      "period": "2023"
+    },
+    {
+      "id": "automation-tools",
+      "title": "Automation Tools",
+      "subtitle": "Python Automation — Flexera",
+      "category": ["ML/NLP"],
+      "company": "Flexera",
+      "stack": ["Python", "REST APIs", "MongoDB", "SQL"],
+      "impact": ["Component identification rules", "Automated download and extraction of component release metadata", "URL validation and SQL query generation", "60% reduction in manual operational time"],
+      "period": "2019 – 2022"
+    }
+  ]
+}

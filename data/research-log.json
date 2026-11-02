@@ -1,0 +1,204 @@
+{
+  "entries": [
+    {
+      "date": "2026-06-09",
+      "items": [
+        {
+          "type": "paper",
+          "title": "Scaling LLM Test-Time Compute Optimally",
+          "authors": "Snell et al., UC Berkeley",
+          "source": "arXiv:2408.03314",
+          "url": "https://arxiv.org/abs/2408.03314",
+          "tags": ["inference", "test-time-compute", "scaling", "reasoning"],
+          "note": "Key insight: compute at inference time is a different scaling axis than training compute. Directly relevant for our agentic chatbot — explore allocating more tokens to reasoning steps."
+        },
+        {
+          "type": "tool",
+          "title": "LiteLLM — Unified LLM API Gateway",
+          "source": "GitHub · BerriAI",
+          "url": "https://github.com/BerriAI/litellm",
+          "tags": ["dev-tools", "llm-gateway", "multi-provider"],
+          "note": "Could replace our custom routing logic in Business4AI. Handles Claude, GPT-4o, Bedrock all with one interface."
+        }
+      ]
+    },
+    {
+      "date": "2026-06-08",
+      "items": [
+        {
+          "type": "repo",
+          "title": "vLLM — High-throughput LLM Serving",
+          "source": "GitHub · vllm-project",
+          "url": "https://github.com/vllm-project/vllm",
+          "stars": "32k",
+          "tags": ["inference", "serving", "performance", "paged-attention"],
+          "note": "PagedAttention is brilliant — treats KV cache like OS virtual memory. Benchmarking against our TGI setup for the on-prem Code Assistant."
+        },
+        {
+          "type": "paper",
+          "title": "GraphRAG: Unlocking LLM Discovery on Narrative Private Data",
+          "authors": "Edge et al., Microsoft Research",
+          "source": "arXiv:2404.16130",
+          "url": "https://arxiv.org/abs/2404.16130",
+          "tags": ["rag", "knowledge-graph", "retrieval", "microsoft"],
+          "note": "Graph-based retrieval vs flat vector search — the query-focused summarization approach could improve our Legal Tender compliance system significantly."
+        }
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "items": [
+        {
+          "type": "course",
+          "title": "Andrej Karpathy — Neural Networks: Zero to Hero",
+          "source": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ",
+          "tags": ["foundations", "backprop", "transformers", "karpathy"],
+          "progress": 85,
+          "note": "Re-watching the makemore series. Building micrograd from scratch is the best way to truly internalize autograd."
+        },
+        {
+          "type": "tool",
+          "title": "Weave by Weights & Biases — LLM Observability",
+          "source": "wandb.ai",
+          "url": "https://wandb.ai/site/weave",
+          "tags": ["observability", "llm-monitoring", "eval", "mlops"],
+          "note": "Interesting competitor to LangSmith. The tracing at the prompt level is very clean."
+        }
+      ]
+    },
+    {
+      "date": "2026-06-06",
+      "items": [
+        {
+          "type": "paper",
+          "title": "RLHF Workflow: From Reward Modeling to Online RLHF",
+          "authors": "Dong et al.",
+          "source": "arXiv:2405.07863",
+          "url": "https://arxiv.org/abs/2405.07863",
+          "tags": ["rlhf", "alignment", "fine-tuning", "reward-model"],
+          "note": "Solid survey of the full RLHF pipeline. Particularly interested in the online vs offline RLHF distinction for production fine-tuning."
+        },
+        {
+          "type": "blog",
+          "title": "How Anthropic thinks about Claude's constitutional AI",
+          "authors": "Anthropic",
+          "source": "anthropic.com",
+          "url": "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback",
+          "tags": ["alignment", "constitutional-ai", "anthropic", "claude"],
+          "note": "CAI's self-critique loop is elegant — essentially RLHF without human preference labels for the harmlessness dimension."
+        }
+      ]
+    },
+    {
+      "date": "2026-06-05",
+      "items": [
+        {
+          "type": "repo",
+          "title": "DSPy — Declarative LLM Programming",
+          "source": "GitHub · stanfordnlp",
+          "url": "https://github.com/stanfordnlp/dspy",
+          "stars": "18k",
+          "tags": ["prompt-optimization", "langchain-alternative", "stanford", "pipelines"],
+          "note": "The optimizer approach to prompts (MIPROv2) is fascinating. Could replace manual prompt engineering in our RAG pipelines — worth a PoC next sprint."
+        },
+        {
+          "type": "tool",
+          "title": "Ragas — RAG Evaluation Framework",
+          "source": "GitHub · explodinggradients",
+          "url": "https://github.com/explodinggradients/ragas",
+          "tags": ["rag", "evaluation", "metrics", "faithfulness"],
+          "note": "Need this badly. Context recall and faithfulness metrics will let us objectively compare chunking strategies in the Multimodal-RAG project."
+        }
+      ]
+    },
+    {
+      "date": "2026-06-04",
+      "items": [
+        {
+          "type": "paper",
+          "title": "Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention",
+          "authors": "Munkhdalai et al., Google",
+          "source": "arXiv:2404.07143",
+          "url": "https://arxiv.org/abs/2404.07143",
+          "tags": ["attention", "long-context", "memory", "google"],
+          "note": "Compressive memory in the attention layer itself — no retrieval step needed. Could fundamentally change how we think about RAG for long-document processing."
+        },
+        {
+          "type": "idea",
+          "title": "Evaluation harness for production RAG pipelines",
+          "tags": ["rag", "eval", "idea", "production"],
+          "note": "Build an internal eval framework using Ragas + custom domain metrics. Track: faithfulness, context precision, answer relevancy per document type. Automate via GitHub Actions nightly runs."
+        }
+      ]
+    },
+    {
+      "date": "2026-06-03",
+      "items": [
+        {
+          "type": "course",
+          "title": "DeepLearning.AI — Building Agentic RAG with Llamaindex",
+          "source": "deeplearning.ai",
+          "url": "https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/",
+          "tags": ["rag", "agents", "llamaindex", "short-course"],
+          "progress": 100,
+          "note": "Completed. The recursive retrieval pattern and router query engines are directly applicable to our Multimodal-RAG system."
+        },
+        {
+          "type": "blog",
+          "title": "What We Learned from a Year of Building with LLMs",
+          "authors": "Eugene Yan, Bryan Bischof et al.",
+          "source": "eugeneyan.com",
+          "url": "https://applied-llms.org/",
+          "tags": ["production", "best-practices", "llm-engineering", "lessons"],
+          "note": "The most practical LLM engineering guide I've read. Section on evals and the 'don't sleep on classical IR' advice validated our hybrid retrieval approach."
+        }
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "items": [
+        {
+          "type": "paper",
+          "title": "Mixture of Agents Enhances Large Language Model Capabilities",
+          "authors": "Wang et al., Together AI",
+          "source": "arXiv:2406.04692",
+          "url": "https://arxiv.org/abs/2406.04692",
+          "tags": ["moa", "agents", "ensemble", "reasoning"],
+          "note": "MoA beats GPT-4o on AlpacaEval2 using open-source models. Interesting alternative to single-model architectures for our agentic system — worth testing with our Langraph setup."
+        },
+        {
+          "type": "repo",
+          "title": "Mem0 — Memory Layer for AI Agents",
+          "source": "GitHub · mem0ai",
+          "url": "https://github.com/mem0ai/mem0",
+          "stars": "22k",
+          "tags": ["agents", "memory", "personalization", "long-term"],
+          "note": "Elegant multi-level memory (user, session, agent level). Would solve the context length problem in our agentic chatbot without increasing token costs."
+        }
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "items": [
+        {
+          "type": "paper",
+          "title": "Self-Play Fine-Tuning Converts Weak Language Models to Strong",
+          "authors": "Chen et al., UCLA",
+          "source": "arXiv:2401.01335",
+          "url": "https://arxiv.org/abs/2401.01335",
+          "tags": ["fine-tuning", "self-play", "alignment", "synthetic-data"],
+          "note": "SPIN's key insight: use the model's own outputs as negative examples. No need for human preference data. Directly applicable to our compliance document fine-tuning work."
+        },
+        {
+          "type": "tool",
+          "title": "Instructor — Structured Outputs from LLMs",
+          "source": "GitHub · jxnl",
+          "url": "https://github.com/jxnl/instructor",
+          "tags": ["structured-outputs", "pydantic", "parsing", "reliability"],
+          "note": "Been using this in prod. Pydantic + retry logic makes LLM outputs deterministic. Should be the standard pattern for any LLM calling external APIs."
+        }
+      ]
+    }
+  ]
+}

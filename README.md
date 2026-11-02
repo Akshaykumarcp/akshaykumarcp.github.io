@@ -1,9 +1,247 @@
-# Akshay Kumar C P - AI Engineer Lead
+# Akshay Kumar C P — AI Engineer & Researcher
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/akshay-kumar-c-p/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/Akshaykumarcp)
+[![Medium](https://img.shields.io/badge/Medium-Read-black?style=flat&logo=medium)](https://medium.com/@akshai.148)
+[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=flat&logo=youtube)](https://www.youtube.com/channel/UC3l8RTE3zBRzUrHbSXpx-qA)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green?style=flat&logo=google-chrome)](https://akshaykumarcp.github.io/)
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=flat&logo=gmail)](mailto:akshaykumarcp01@gmail.com)
+
+---
+
+**AI Engineer Lead (Manager)** · Capgemini Technology Services · Bangalore, India
+
+7+ years shipping production-grade AI platforms — from RAG pipelines and agentic reasoning systems to microservices backends at enterprise scale.
+
+<!-- > Focus: Agentic AI · RAG Systems · LLM Infrastructure -->
+> Focus: Agentic AI · RAG Systems
+
+---
+
+## Impact
+
+| Metric | Value |
+|--------|-------|
+| Annual cost avoidance | **€1.4M** |
+| Production microservices architected | **10+** |
+| Years shipping AI to production | **7+** |
+| Query resolution time reduction | **70%** |
+
+---
+
+## 01 // Systems — Production AI Systems
+
+Enterprise-scale platforms shipped from architecture to deployment. Filterable by category: **GenAI/LLM · RAG · Agentic · ML/NLP · Cloud/Infra**
+
+<details>
+<summary><strong>Business4AI — Enterprise AI Platform</strong></summary>
+
+**Role:** AI Engineer Lead — end-to-end ownership from architecture to production
+
+**Stack:** Claude Sonnet 4.5 (Claude Code CLI) · AWS Bedrock · Python · FastAPI · React.js · Module Federation · Azure Static Web Apps · Container Apps · Redis · Blob Storage · GitHub Actions · Docker
+
+**Impact:** Scaled to 10 backend microservices and 4 module-federation frontends enabling organization-wide AI adoption
+</details>
+
+<details>
+<summary><strong>Multimodal-RAG Playground — AI Document Intelligence</strong></summary>
+
+**Stack:** Langchain · Azure OpenAI · Databricks · Azure Cognitive Services · Vector DBs
+
+**Impact:** 80%+ accuracy in multimodal content extraction across Images, Video, Audio, PDFs · Led cross-functional team of 8+ engineers
+</details>
+
+<details>
+<summary><strong>Agentic AI Chatbot — Intelligent Reasoning System</strong></summary>
+
+**Stack:** Langraph · FastAPI · GPT-4o · Azure App Service · Key Vault · MySQL
+
+**Impact:** ReAct pattern from scratch · 70% reduction in manual query resolution time
+</details>
+
+<details>
+<summary><strong>Legal Tender AI Review — Compliance Automation</strong></summary>
+
+**Stack:** GPT-3.5-Turbo · Azure OpenAI Embeddings · Azure Cognitive Search · Langchain
+
+**Impact:** €1.4M annual cost avoidance · 60% accuracy in criticality assessment · 90% reduction in review time (100+ hrs → 10 hrs)
+</details>
+
+<details>
+<summary><strong>Code Assistant — On-Premise AI Development Tool</strong></summary>
+
+**Stack:** Databricks GPU · HuggingFace · 4-bit Quantization · ChromaDB · Langchain · Ollama (Mistral, Llama 2)
+
+**Impact:** 50% reduction in data pipeline development time · fully air-gapped deployment
+</details>
+
+<details>
+<summary><strong>Open-Source License Detection & Copyright Extraction</strong></summary>
+
+**Stack:** Python · Spacy NER · Scikit-learn · REST APIs · UWSGI · MongoDB
+
+**Impact:** License mappings from 35% → 55% · 10K+ daily predictions · 99.5% uptime
+</details>
+
+<details>
+<summary><strong>Q&A Chatbot for HR — Conversational AI</strong></summary>
+
+**Stack:** Python · Dialogflow / Lex / LUIS / Rasa · MongoDB
+
+**Impact:** 70% reduction in HR ticket volume · 50% faster query resolution · comparative analysis across 4 platforms
+</details>
+
+### More Work
+
+| Project | Category | Stack | Impact |
+|---------|----------|-------|--------|
+| **RAISE Platform** — AI Governance & Security | GenAI/LLM | Microsoft Autogen · LLM APIs · Azure Security | AI governance framework adopted across 10+ enterprise projects |
+| **Synthetic Data Generation** — Tabular · Image · Text | ML/NLP, GenAI/LLM | CTGAN · SDV · Stable Diffusion · GPT-2 · Bloom · HuggingFace | Tabular, image, and text data generation at scale |
+| **Natural Language to SQL** — Prompt Engineering Demo | GenAI/LLM | OpenAI text-davinci-003 · Gradio · Python | Non-technical users query databases in plain English |
+| **Q&A Chatbot for HR** — Conversational AI for 500+ Employees | ML/NLP | Dialogflow · Amazon Lex · Azure LUIS · Rasa X · MongoDB | 70% HR ticket reduction · 50% faster query resolution |
+| **Insect Acoustic AI** — Hackathon, Multi-class Audio Classification | ML/NLP | AWS SageMaker · HuggingFace · ANN · PyTorch | Audio classification with custom feature extraction |
+
+---
+
+## 02 // Research Log — Daily AI Exploration
+
+A living record of papers, tools, repos, courses, blog posts, and ideas — updated continuously.
+
+**Entry types:** Papers · Tools · Repos · Courses · Blog Posts · Ideas
+
+Data source: [`data/research-log.json`](data/research-log.json)
+
+---
+
+## 03 // Credentials — Certifications & Skills
+
+### Certifications
+
+**Databricks**
+- [Databricks Certified Generative AI Engineer Associate](https://credentials.databricks.com/bddd8259-97bb-473e-9e6f-fc051f34c0c0#acc.H05bzpTk)
+
+**Microsoft Azure**
+- Azure AI Engineer Associate — AI 102
+- Azure AI Fundamentals — AI 900
+
+**Amazon Web Services**
+- AWS Certified Machine Learning — Specialty
+- AWS Certified Cloud Practitioner
+
+**Oracle Cloud**
+- OCI Generative AI Professional
+
+**Dataiku**
+- [Core Designer Certificate](https://github.com/Akshaykumarcp/akshaykumarcp.github.io/blob/master/doc/certificate-q7qz85ytn6ib-1657973356%20CD.pdf)
+- [ML Practitioner Certificate](https://github.com/Akshaykumarcp/akshaykumarcp.github.io/blob/master/doc/certificate-jgebrsy3i94c-1658144101%20MLP.pdf)
+
+Data source: [`data/certifications.json`](data/certifications.json)
+
+### Technical Depth
+
+| Domain | Technologies | Depth |
+|--------|-------------|-------|
+| GenAI / LLM | Claude · GPT-4o · Bedrock · Ollama | 10/10 |
+| RAG Systems | Langchain · Vector DBs · Azure AI Search | 9/10 |
+| Agentic AI | Langraph · ReAct · Autogen · Function Calling | 9/10 |
+| Cloud — Azure | Container Apps · SWA · Redis · Key Vault | 9/10 |
+| Python | FastAPI · Django · Flask · asyncio · OOP | 10/10 |
+| ML / NLP | Spacy · Transformers · sklearn · PyTorch | 8/10 |
+| DevOps / MLOps | Docker · Kubernetes · GitHub Actions · Azure DevOps | 8/10 |
+| Cloud — AWS | Bedrock · SageMaker · S3 · Lambda · EC2 | 7/10 |
+| Frontend | React.js · Module Federation · HTML5 · CSS3 | 7/10 |
+
+### Awards & Recognition
+
+- **Best Efficiency Delivered — Regional Impact Award** · Capgemini · 2025 · [Certificate](https://github.com/Akshaykumarcp/akshaykumarcp.github.io/blob/master/doc/Akshay%20Kumar%20CP%20h1%2025%20regional%20impact%20award.pdf)
+- **Promotion: Consultant → Senior Consultant** · Capgemini · 2024
+- **XTRAMILE — Outstanding Performance & Lasting Contribution** · Capgemini · 2022 · [Certificate](https://github.com/Akshaykumarcp/akshaykumarcp.github.io/blob/master/doc/CG_XtraMile.pdf)
+- **Recognition for Passion in Artificial Intelligence** · Flexera Software · 2021
+
+---
+
+## 04 // Timeline — Career Arc
+
+From first lines of code to enterprise AI architect.
+
+Data source: [`data/timeline.json`](data/timeline.json)
+
+| Year | Event |
+|------|-------|
+| **Now** | Building Next-Gen AI Platforms — Agentic AI · GraphRAG · vLLM · DSPy |
+| **Jun 2025** | Regional Impact Award — Best Efficiency Delivered · Capgemini |
+| **Jan 2024** | Promoted to Senior Consultant (Manager) · Capgemini |
+| **Jun 2022** | AI Engineer Lead (Manager) · Capgemini Technology Services · Bangalore |
+| **Sep 2022** | XTRAMILE Award · Capgemini · Insight & Data |
+| **Jun 2019** | Software Development Engineer — Machine Learning · Flexera Software · Bangalore |
+| **May 2019** | MCA · Visvesvaraya Technological University (VTU) · CGPA 7.91 |
+| **May 2015** | BCA · Bangalore University · 67% |
+| **2012** | Started the CS Journey · Bangalore, India |
+
+---
+
+## 05 // Connect
+
+- Email: [akshaykumarcp01@gmail.com](mailto:akshaykumarcp01@gmail.com)
+- LinkedIn: [linkedin.com/in/akshay-kumar-c-p](https://www.linkedin.com/in/akshay-kumar-c-p/)
+- GitHub: [github.com/Akshaykumarcp](https://github.com/Akshaykumarcp)
+- Medium: [medium.com/@akshai.148](https://medium.com/@akshai.148)
+- YouTube: [youtube.com/channel/UC3l8RTE3zBRzUrHbSXpx-qA](https://www.youtube.com/channel/UC3l8RTE3zBRzUrHbSXpx-qA)
+- X / Twitter: [@cpakshaykumar](https://twitter.com/cpakshaykumar)
+- Phone: +91 8123920743
+- Location: Bangalore, Karnataka, India — 560022
+
+---
+
+## Resume
+
+[Download Latest Resume](https://github.com/Akshaykumarcp/akshaykumarcp.github.io/blob/master/resume/Akshay_Kumar_CP.pdf)
+
+---
+
+## GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Akshaykumarcp&show_icons=true&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Akshaykumarcp&layout=compact&theme=radical)
+
+---
+
+## Local Development
+
+### Prerequisites
+- Node.js v18+ (tested on v25)
+- npm
+
+### Setup
+
+```bash
+npm install
+npx gulp dev
+```
+
+Opens at `http://localhost:3001` — serves `index.html` with BrowserSync live reload.
+
+Watches `scss/*.scss`, `js/*.js`, and `*.html` for changes.
+
+### Project Structure
+
+```
+index.html           # Main site (redesign)
+css/main.css         # Compiled from scss/
+js/app.js            # Data-driven rendering
+data/
+  projects.json      # 01 // Systems content
+  research-log.json  # 02 // Research Log content
+  certifications.json# 03 // Credentials content
+  timeline.json      # 04 // Timeline content
+scss/                # Source stylesheets
+gulpfile.js          # Gulp 4 build (sass → css, browserSync)
+```
+
+### Site Design
+
+Dark minimal aesthetic · Space Grotesk / Inter / JetBrains Mono · Data-driven sections rendered from JSON via `app.js` · No Bootstrap dependency
+
 
 ---
 
